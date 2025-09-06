@@ -12,9 +12,17 @@
   <main class="flex flex-col gap-12 my-20 container mx-auto">
     <div class="bg-white text-gray-800 p-4 rounded-md w-full max-w-md mx-auto">
       <div class="">
-        <h2 class="text-2xl font-semibold">
+        <h2 class="text-2xl font-semibold mb-4">
           Length
         </h2>
+        <div class="flex flex-col gap-4">
+          <div class="border border-neutral-400 rounded-sm">
+            <input type="text" class="focus:outline-0 w-full px-2 py-1"/>
+          </div>
+          <div class="border border-neutral-400 rounded-sm">
+            <input type="text" class="focus:outline-0 w-full px-2 py-1"/>
+          </div>
+        </div>
       </div>
     </div>
   </main>
